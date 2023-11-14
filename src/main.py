@@ -1,3 +1,6 @@
+from yaml import load, SafeLoader
+from yaml.constructor import ConstructorError
+
 test_file = 'test.txt'
 def read_bool(stream):
     data = stream.read().strip()
@@ -11,7 +14,10 @@ def read_bool(stream):
 
 def test_read_bool(input_file='input.txt'):
     with open(input_file, 'r') as f:
-        val = read_bool(f)
+        data = f.read()
+        data = load(data, Loader=SafeLoader)
+        with open(data['file'], 'r') as f2:
+            val = read_bool(f2)
     assert val
 
 def test_read_True():
