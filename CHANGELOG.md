@@ -1,6 +1,12 @@
 # CHANGELOG
 
+## v0.0.3 (2024-12-04)
+
 ## v0.0.2 (2024-12-04)
+
+### :zap:
+
+* :zap: Adding more :memo: ([`2d954e9`](https://github.com/Westfall-io/python-pytest-boolfile/commit/2d954e9917e26ac3eb5399e343563b669b76d9f0))
 
 ## v0.0.1 (2024-11-06)
 

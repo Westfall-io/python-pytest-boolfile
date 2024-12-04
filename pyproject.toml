@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "python-pytest-boolfile"
-version = "0.0.2"
+version = "0.0.3"
 description = "Sample container that checks for a file with True/False and creates a Junit"
 authors = ["Christopher Cox"]
 license = "MIT"
@@ -61,7 +61,7 @@ patch_tags = [
 
 [project]
 name = "python-pytest-boolfile"
-version = "0.0.2"
+version = "0.0.3"
 authors = [
   { name="Christopher Cox", email="chris.cox@westfall.io" },
 ]
