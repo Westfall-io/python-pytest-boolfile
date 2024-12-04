@@ -1,8 +1,12 @@
 # CHANGELOG
 
+## v0.0.2 (2024-12-04)
+
 ## v0.0.1 (2024-11-06)
 
 ### :bug:
+
+* :bug: Adding debug for file contents ([`4352e9a`](https://github.com/Westfall-io/python-pytest-boolfile/commit/4352e9a5d20f7905f47b0387591f4d86fe2c1e2f))
 
 * :bug: Fixing error with versioning ([`c9a6475`](https://github.com/Westfall-io/python-pytest-boolfile/commit/c9a647523b53b7f9bbc62ce563526c1818b41919))
 
